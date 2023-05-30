@@ -10,7 +10,7 @@ Nathaly ambrosio
 int n1, n2, n3, soma;
 
 Scanner leitor = new Scanner(System.in);
-
+ while(true){
 System.out.print("Digite um número ");
 n1 = leitor.nextInt();
 
@@ -25,10 +25,11 @@ soma = n1 + n2 + n3;
 
 
 //vericar se as é igual a 48 ou 71
-if (soma == 48 ||  soma == 71){    
-    System.out.print("a soma dos números é igual a 48 || 71");                     
-}
-    leitor.close();
+ if (soma == 48 ||  soma == 71){    
+    System.out.print("a soma dos números é igual a 48 || 71");    
+    break;                 
+} }
+  
     }
     }
 
